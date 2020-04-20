@@ -99,10 +99,9 @@ function Form(props) {
         </div>
       </form>
       <div>
-        {/* <button onClick={computeTrueMoneyValue}> compute</button> */}
         <div>
           <p className='display-result-title'>True future balance</p>
-          <h2 className='display-result'>{computeTrueMoneyValue()}</h2>
+          <h2 className='display-result'># {computeTrueMoneyValue()}</h2>
         </div>
       </div>
     </div>
