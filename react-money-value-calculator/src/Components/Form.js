@@ -27,6 +27,9 @@ function Form(props) {
 
   const computeTrueMoneyValue = () => {
     computeEffectiveRate();
+    if (state.compoundPeriod > state.time) {
+      return "time should be equal to compound period";
+    }
     let amount =
       state.principal *
       Math.pow(
