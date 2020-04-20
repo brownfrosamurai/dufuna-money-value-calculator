@@ -1,10 +1,6 @@
 const computeButton = document.getElementById("button");
 const warningZone = document.getElementById("warning-zone");
 
-// Event Listeners
-warningZone.addEventListener("click", compoundInputWarning);
-computeButton.addEventListener("click", computeMoneyValue);
-
 //Compound Period Input Warning
 const compoundInputWarning = () => {
   let warning = document.getElementById("warning");
@@ -38,3 +34,7 @@ function computeMoneyValue() {
     "display-result"
   ).innerHTML = ` <h2 id="display-result"># ${amount}</h2>`;
 }
+
+// Event Listeners
+warningZone.addEventListener("click", compoundInputWarning);
+computeButton.addEventListener("click", computeMoneyValue);
