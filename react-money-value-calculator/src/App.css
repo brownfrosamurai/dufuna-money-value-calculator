@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Gotu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gotu&family=Poppins&display=swap");
+
+.App {
+  margin-top: 0;
+  background-image: linear-gradient(
+    rgba(21, 60, 190, 0.2),
+    rgba(0, 0, 0, 0.01),
+    rgba(21, 60, 190, 0.897)
+  );
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  padding-top: 1rem;
+  font-size: 16px;
+}
+
+.header {
+  background-color: rgba(21, 60, 190, 0.897);
+  width: 40%;
+  border-radius: 7px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+.header h2 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.header h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.input-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  width: 40%;
+  border-radius: 5px;
+  margin-top: 30px;
+  background-color: rgba(21, 60, 190, 0.2);
+  display: grid;
+  width: 40%;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  grid-gap: 30px;
+}
+
+input {
+  display: block;
+  /* font-size: 1.5rem; */
+  padding-left: 10px;
+}
+input[type="number"] {
+  height: 1.2rem;
+  width: 300px;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  background-color: rgba(21, 60, 190, 0.2);
+  border-radius: 2px;
+}
+.input {
+  padding: 3px;
+  background-color: rgba(21, 60, 190, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+}
+
+.input label {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+.display-result-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.display-result {
+  background-color: rgba(0, 0, 0, 0.04);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+.footer p {
+  text-transform: uppercase;
+  margin: 0 auto;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

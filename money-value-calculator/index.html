@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Money Time Value Calculator</title>
+  </head>
+  <body>
+    <div>
+      <div class="title">
+        <h2>money & time value calculator</h2>
+        <h3>calculate the future value of money</h3>
+      </div>
+      <h3>initial deposit</h3>
+      <div class="input-wrapper">
+        <div class="input">
+          <label for="principal">principal:(#)</label>
+          <input id="principal" type="number" />
+        </div>
+        <div class="input">
+          <label for="interest-rate">interest rate:(%)</label>
+          <input id="interest-rate" type="number" />
+        </div>
+        <div class="input">
+          <label for="time">time:(yrs)</label>
+          <input id="time" type="number" />
+        </div>
+        <div class="input">
+          <label for="inflation">inflation:(%)</label>
+          <input id="inflation" type="number" />
+        </div>
+        <div class="input">
+          <label for="compound">compound period:(yrs)</label>
+          <input id="compound-period" type="number" />
+        </div>
+        <div class="btn"><button id="button">compute</button></div>
+      </div>
+
+      <div class="calculate-result">
+        <div class="result">
+          <h3>true future balance</h3>
+          <h4 id="display-result"></h4>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
