@@ -30,8 +30,12 @@
           <label for="inflation">inflation:(%)</label>
           <input id="inflation" type="number" />
         </div>
-        <div class="input">
-          <label for="compound">compound period:(yrs)</label>
+        <div class="input" id="warning-zone">
+          <label for="compound"
+            >compound period:(yrs)<sub id="warning"
+              >*the compound period should be equal to or less than the time
+            </sub></label
+          >
           <input id="compound-period" type="number" />
         </div>
         <div class="btn"><button id="button">compute</button></div>

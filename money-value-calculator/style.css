@@ -53,6 +53,13 @@ h3 {
   outline: none;
   border-radius: 5px;
 }
+#warning {
+  display: none;
+  font-size: 9px;
+  font-weight: 500;
+  text-transform: lowercase;
+  color: red;
+}
 input:focus {
   border-color: rgba(21, 60, 190, 0.897);
 }
@@ -71,6 +78,7 @@ label {
   margin-top: 10px;
   border-radius: 5px;
   transform: translate(-43%);
+  cursor: pointer;
 }
 #button:hover {
   background-color: rgba(21, 60, 190, 0.897);

@@ -1,8 +1,16 @@
 // Hook up to the button
-let computeButton = document.getElementById("button");
+const computeButton = document.getElementById("button");
 
 // Add event Listener
 computeButton.addEventListener("click", computeMoneyValue);
+
+const compoundInputWarning = () => {
+  let warning = document.getElementById("warning");
+
+  warning.style.display = "block";
+};
+const warningZone = document.getElementById("warning-zone");
+warningZone.addEventListener("click", compoundInputWarning);
 
 function computeMoneyValue() {
   //Convert all values to numbers
