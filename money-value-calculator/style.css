@@ -58,7 +58,7 @@ h3 {
   font-size: 9px;
   font-weight: 500;
   text-transform: lowercase;
-  color: red;
+  color: rgb(255, 19, 19);
 }
 input:focus {
   border-color: rgba(21, 60, 190, 0.897);
